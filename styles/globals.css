@@ -1,0 +1,52 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.iconMenu{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #f6f6f6;
+  padding: 10;
+}
+.list-menu li{
+  padding: 0px 20px;
+  margin: 10px 0;
+}
+.list-menu li a{
+  color: rgb(35, 35, 35);
+}
+.list-menu li a:hover{
+  color: #666;
+}
+.list-menu li.active{
+  border-right: 3px solid rgb(47, 1, 139);
+}
+.overflow-y-auto{
+  overflow-y: auto;
+}
+
+a{
+  text-decoration: none !important; 
+}
+.wadah label{
+  width: 100% !important;
+}
+.wadah input{
+  padding: 5px 10px;
+  width: 100% !important;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+}
